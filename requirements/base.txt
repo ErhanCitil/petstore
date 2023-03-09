@@ -20,16 +20,20 @@ django==3.2.18
     #   -r requirements/base.in
     #   django-admin-index
     #   django-axes
+    #   django-filter
     #   django-formtools
     #   django-hijack
     #   django-otp
     #   django-phonenumber-field
     #   django-redis
     #   django-rosetta
+    #   djangorestframework
     #   maykin-django-two-factor-auth
 django-admin-index==2.0.2
     # via -r requirements/base.in
 django-axes==5.40.1
+    # via -r requirements/base.in
+django-filter==22.1
     # via -r requirements/base.in
 django-formtools==2.4
     # via maykin-django-two-factor-auth
@@ -47,10 +51,14 @@ django-redis==5.2.0
     # via -r requirements/base.in
 django-rosetta==0.9.8
     # via -r requirements/base.in
+djangorestframework==3.14.0
+    # via -r requirements/base.in
 elastic-apm==6.15.1
     # via -r requirements/base.in
 idna==3.4
     # via requests
+markdown==3.4.1
+    # via -r requirements/base.in
 maykin-django-two-factor-auth==2.0.4
     # via -r requirements/base.in
 phonenumbers==8.13.7
@@ -69,6 +77,7 @@ pytz==2022.7.1
     # via
     #   -r requirements/base.in
     #   django
+    #   djangorestframework
 qrcode==6.1
     # via maykin-django-two-factor-auth
 redis==4.5.1

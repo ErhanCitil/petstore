@@ -42,6 +42,7 @@ django==3.2.18
     #   -r requirements/base.txt
     #   django-admin-index
     #   django-axes
+    #   django-filter
     #   django-formtools
     #   django-hijack
     #   django-jenkins
@@ -49,12 +50,17 @@ django==3.2.18
     #   django-phonenumber-field
     #   django-redis
     #   django-rosetta
+    #   djangorestframework
     #   maykin-django-two-factor-auth
 django-admin-index==2.0.2
     # via
     #   -c requirements/base.txt
     #   -r requirements/base.txt
 django-axes==5.40.1
+    # via
+    #   -c requirements/base.txt
+    #   -r requirements/base.txt
+django-filter==22.1
     # via
     #   -c requirements/base.txt
     #   -r requirements/base.txt
@@ -99,6 +105,10 @@ django-rosetta==0.9.8
     #   -r requirements/base.txt
 django-webtest==1.9.10
     # via -r requirements/test-tools.in
+djangorestframework==3.14.0
+    # via
+    #   -c requirements/base.txt
+    #   -r requirements/base.txt
 elastic-apm==6.15.1
     # via
     #   -c requirements/base.txt
@@ -122,6 +132,10 @@ lazy-object-proxy==1.9.0
     # via astroid
 lxml==4.9.2
     # via pyquery
+markdown==3.4.1
+    # via
+    #   -c requirements/base.txt
+    #   -r requirements/base.txt
 maykin-django-two-factor-auth==2.0.4
     # via
     #   -c requirements/base.txt
@@ -174,6 +188,7 @@ pytz==2022.7.1
     #   -c requirements/base.txt
     #   -r requirements/base.txt
     #   django
+    #   djangorestframework
 qrcode==6.1
     # via
     #   -c requirements/base.txt
