@@ -39,6 +39,8 @@ urlpatterns = [
     ),
     # Simply show the master template.
     path("", TemplateView.as_view(template_name="master.html"), name="root"),
+    path("", include("petstore.pet.urls")),
+    path('api-auth/', include('rest_framework.urls')),
 ]
 
 # NOTE: The staticfiles_urlpatterns also discovers static files (ie. no need to run collectstatic). Both the static
