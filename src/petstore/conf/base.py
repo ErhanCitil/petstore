@@ -114,6 +114,7 @@ INSTALLED_APPS = [
     # Project applications.
     "petstore.accounts",
     "petstore.utils",
+    'petstore.pet',
 ]
 
 MIDDLEWARE = [
