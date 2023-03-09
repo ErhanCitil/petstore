@@ -1,0 +1,10 @@
+SECRET_KEY="django-insecure-ibv6y4ohn7sywl^(nll3c=7qbq1h98++lbhs-pm_*8q*d6ss&c"
+DB_NAME="petstore"
+DB_USER="petstore"
+#
+# For peer authentication via unix domain socket
+# these should be kept empty.
+#
+DB_PASSWORD=""
+DB_HOST=""
+DB_PORT=""
