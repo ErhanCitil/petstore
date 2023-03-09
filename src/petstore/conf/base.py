@@ -115,6 +115,7 @@ INSTALLED_APPS = [
     "petstore.accounts",
     "petstore.utils",
     'petstore.pet',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
